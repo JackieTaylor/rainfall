@@ -1,0 +1,23 @@
+rain_list = []
+rain_list.append(float(input('Enter rainfall for January:\n')))
+rain_list.append(float(input('Enter rainfall for February:\n')))
+rain_list.append(float(input('Enter rainfall for March:\n')))
+rain_list.append(float(input('Enter rainfall for April:\n')))
+rain_list.append(float(input('Enter rainfall for May:\n')))
+rain_list.append(float(input('Enter rainfall for June:\n')))
+rain_list.append(float(input('Enter rainfall for July:\n')))
+rain_list.append(float(input('Enter rainfall for August:\n')))
+rain_list.append(float(input('Enter rainfall for September:\n')))
+rain_list.append(float(input('Enter rainfall for October:\n')))
+rain_list.append(float(input('Enter rainfall for November:\n')))
+rain_list.append(float(input('Enter rainfall for December:\n')))
+print(rain_list)
+print()
+total = sum(rain_list)
+avg_monthly = total/12
+lowest = sorted(rain_list)[0]
+highest = sorted(rain_list)[11]
+print('total', total)
+print('average', avg_monthly)
+print('lowest', lowest)
+print('highest', highest)
